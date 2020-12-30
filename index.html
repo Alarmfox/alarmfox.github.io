@@ -12,6 +12,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="stylesheet" href="static/assets/css/fontawesome-all.min.css" />
 		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -19,17 +20,16 @@
 		<!-- Sidebar -->
 		<section id="sidebar">
 			<div class="inner">
-				<nav class="navbar navbar-default">
-					<img src="static/images/avatar.jpg" alt="" height="120">
-						<div class="navbar-header">
-								<div class="navbar-collapse collapse" id="bs-navbar">
-									<ul class="nav navbar-nav" >
-										<ul><div><a class="page-scroll" class="active" href="#home">Home</a></div></ul>
-										<ul><div><a class="page-scroll" class="active" href="#portfolio">Portfolio</a></div></ul>
-										<ul><div><a class="page-scroll" class="active" href="#contattami">Contattami</a></div></ul>
-									</ul>
-								</div>
+				<nav>
+					<div>
+						<div id="bs-navbar">
+							<ul>
+								<ul><div><a class="active" href="#home">Home</a></div></ul>
+								<ul><div><a class="active" href="#portfolio">Portfolio</a></div></ul>
+								<ul><div><a class="active" href="#contattami">Contattami</a></div></ul>
+							</ul>
 						</div>
+					</div>
 				</nav>
 			</div>
 		</section>
@@ -46,7 +46,7 @@
 						attraverso docker e docker-swarm.
 					</p>
 					<ul class="actions">
-						<li><a href="static/files/GiuseppeCapassoCV.pdf" class="button scrolly">Visualizza CV</a></li>
+						<li><a href="static/files/GiuseppeCapassoCV.pdf" class="button">Visualizza CV</a></li>
 					</ul>
 				</div>
 			</section>
@@ -63,7 +63,7 @@
 								docker e docker swarm.
 							</p>
 							<ul class="actions">
-								<li><a href="https://github.com/alarmfox/home-automation" class="button scrolly">Codice su Github</a></li>
+								<li><a href="https://github.com/alarmfox/home-automation" class="button">Codice su Github</a></li>
 							</ul>
 						</div>
 					</div>
@@ -79,7 +79,7 @@
 								maniera automatica.
 							</p>
 							<ul class="actions">
-								<li><a href="https://github.com/alarmfox/rotator" class="button scrolly">Codice su Github</a></li>
+								<li><a href="https://github.com/alarmfox/rotator" class="button">Codice su Github</a></li>
 							</ul>
 						</div>
 					</div>
@@ -106,6 +106,7 @@
 						</div>
 					</div>
 				</section>
+				<!-- analisi_di_tweet -->
 				<section>
 					<a href="" class="image"><img src="static/images/ai.jpg" alt="" /></a>
 					<div class="content">
@@ -116,15 +117,16 @@
 								semantico da testi scritti.
 							</p>
 							<ul id="menu" class="actions">
-								<li><a href="static/files/analisi_di_tweet.pdf" class="button scrolly">Documentazione</a></li>
-								<li><a href="https://github.com/alarmfox/Tweet-analysis-with-spaCy" class="button scrolly">Codice su Github</a></li>
+								<li><a href="static/files/analisi_di_tweet.pdf" class="button">Documentazione</a></li>
+								<li><a href="https://github.com/alarmfox/Tweet-analysis-with-spaCy" class="button">Codice su Github</a></li>
 							</ul> 
 						</div>
 					</div>
 				</section>
+				<!-- hackathon -->
 				<section>
-					<a>
-						<img class="image" src="static/images/hackathon.png" alt="" />
+					<a class="image">
+						<img src="static/images/hackathon.png"alt="" />
 					</a>
 					<div class="content">
 						<div class="inner">
@@ -135,7 +137,7 @@
 								5 milioni di persone.
 							</p>
 							<ul id="menu" class="actions">
-								<li><a href="https://github.com/alarmfox/Hack.Gov-Project" class="button scrolly">Codice su Github</a></li>
+								<li><a href="https://github.com/alarmfox/Hack.Gov-Project" class="button">Codice su Github</a></li>
 							</ul> 
 						</div>
 					</div>
@@ -146,7 +148,7 @@
 			<section id="contattami" class="wrapper style1 fade-up">
 				<div class="inner">
 					<h2>Contattami</h2>
-					<div class="split style1">
+					<div class="style1">
 						<section>
 							<ul class="contact">
 								<li>
@@ -160,8 +162,8 @@
 								<li>
 									<h3>Social</h3>
 									<ul class="icons">
-										<li><a href="" onclick="window.open('https://github.com/Alarmfox')" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="" onclick="window.open('https://www.linkedin.com/in/giuseppe-capasso97/')" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li onclick="window.open('https://github.com/Alarmfox')" class="icon brands fa-github"></li>
+										<li onclick="window.open('https://www.linkedin.com/in/giuseppe-capasso97/')" class="icon brands fa-linkedin-in"></li>
 									</ul>
 								</li>
 							</ul>
